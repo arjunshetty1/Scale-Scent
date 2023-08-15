@@ -88,18 +88,71 @@ body {
 
 
 .page2{
-    min-height: 130vh;
+    min-height: 80vh;
     width: 100%;
+    padding: 100px 5vw;
+    border-bottom:2px solid #6c6c6c ;
 
 }
 
 .page2 h1{
     font-size: 7vw;
     font-family: PP mori;
-    color:red;
+    color:#111;
+    font-weight: 300;
+    margin-left: 50px;
+
 
 }
 
 .page2_container{
     height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    margin-top: 8vh;
+    
+}
+
+.page2_left{
+    
+    width: 38%;
+}
+.page2_left h2{
+    font-size: 3.5vw;
+    font-weight: 300;
+    color:#111;
+    font-family: PP mori;
+    line-height: 4vw;
+}
+
+.page2_right{
+    
+    width: 34%;
+}
+
+.page2_right p{
+    font-size: 2vw;
+    font-family: PP mori;
+    color: #111;
+}
+
+.page2_right button{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding:4px 0 ;
+    background-color: #EDBFFF;
+    color: #111;
+    margin-top: 20px;
+    font-family: PP mori;
+    padding-block: 8px;
+}
+
+
+.page3{
+    min-height: 100vh;
+    width: 100%;
 }
