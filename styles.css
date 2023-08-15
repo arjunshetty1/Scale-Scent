@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,61 +6,81 @@
     color: white;
 }
 
-html, body{
-    height: 100%;
+html,
+body {
+    min-height: 100%;
     width: 100%;
 }
 
 
-.main{
-    background-color:#0F0D0D;
+.main {
+    background-color: #0F0D0D;
 }
 
-.page1{
-    height: 100vh;
+.page1 {
+    /* min-height: 100vh; */
+    min-height: 100vh;
+    width: 100%;
 }
 
-#nav{
-height: 55px;
-width: 100%;
-/* background-color: red; */
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 0 30px;
+#nav {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
 }
 
-#nav img{
+#nav img {
     height: 26px;
 
 }
 
-#nav-part2{
+#nav-part2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-#nav-part3{
+#nav-part3 {
     height: 20px;
     width: 20px;
-   border-radius: 50%;
+    border-radius: 50%;
     background-color: #fff;
 }
 
-#nav h4{
+#nav h4 {
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
 
 }
 
-#nav h4:nth-child(1){
+#nav h4:nth-child(1) {
     border-bottom: 1.5px solid #fff;
 }
 
-.page1 h2{
+.page1 h1 {
     font-size: 7vw;
-    
+    font-family: 'PP mori';
+    font-weight: 300;
+    margin-top: 12vw;
+    margin-left: 6vw;
+}
+
+.page1 h2 {
+    font-family: 'PP mori';
+    font-size: 8vw;
+    font-weight: 300;
+    margin-left: 26vw;
+}
+
+.page1 video{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10vw;
+   
 }
