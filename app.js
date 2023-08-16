@@ -30,6 +30,16 @@ init();
 
 //-----------------------ACTUAL CODE----------------------
 
+const cursor = document.querySelector(".cursor")
+const main = document.querySelector(".main")
+main.addEventListener('mousemove',function(e){
+
+    cursor.style.left = e.x + 'px'
+    cursor.style.top = e.y + 'px'
+})
+
+
+
 
 
 var tl = gsap.timeline({

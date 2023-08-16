@@ -12,6 +12,44 @@ body {
     width: 100%;
 }
 
+.cursor{
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #EDBFFF;
+    z-index: 8;
+    mix-blend-mode:difference;
+    transition:  all 0.1s;
+
+}
+
+
+.mouse_enter{
+
+    /* mix-blend-mode: difference; */
+    
+    background-color: red;
+    height: 20px;
+    width: 70px;
+    z-index: 10;
+    position:relative;
+    border-radius: 13%;
+    
+}
+
+
+.mouse_enter p{
+    font-family: PP mori;
+    font-size: 0.7vw;
+    color:#fff;
+    position: fixed;
+    white-space: nowrap; 
+    padding-block: 6px; 
+    padding-left: 4px;   
+    position: relative;
+    z-index: 10;
+}
 
 .main {
     background-color: #0F0D0D;
@@ -21,6 +59,8 @@ body {
     /* min-height: 100vh; */
     min-height: 100vh;
     width: 100%;
+    /* position: relative;
+    z-index: 9; */
 }
 
 #nav {
@@ -155,20 +195,23 @@ body {
 .page3{
     min-height: 100vh;
     width: 100%;
+    margin-top: 15vh;
 }
 
 .page3 h1{
-    font-size: 6.8vw;
+    font-size: 5.8vw;
     font-weight: 300;
     color: #111;
     font-family: PP mori;
     margin-left: 100px;
+    margin-bottom: 13vh;
 }
 
 .page3_part1{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    /* flex-direction: row-reverse; */
     margin-top: 40px;
 }
 
@@ -186,6 +229,89 @@ body {
     font-family: PP mori;
     color: black;
     font-weight: 300 !important;
-    font-size:3.8vw !important;
+    font-size:4vw !important;
+    margin-left: 3vw;
     
+}
+
+
+.circle-btn{
+    height: 7rem;
+    width:7rem;
+    text-align: center;
+    background-color: pink;
+    border-radius: 100%;
+    border: 0;
+    font-family: PP mori;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    left: 40vw;
+    bottom: 4vh;
+}
+
+
+
+.page3_sub_footer{
+    display: flex;
+
+    
+}
+
+.page4{
+    min-height: 100vh;
+    width: 100%;
+    background-color: red;
+    z-index: 9;
+    position: relative;
+    padding: 100px 100px;
+}
+
+.page5{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+}
+
+.elem{
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.text-div{
+    background-color: lightblue;
+    height: 80px;
+    overflow: hidden;
+
+}
+.elem h1{
+    font-size: 5.3vw;
+    font-family: PP mori;
+    transition: all ease 0.5s ;
+
+}
+
+.elem img{
+    position: absolute;
+    opacity: 0;
+}
+
+.elem img:nth-child(1){
+    left: 2%;
+}
+
+.elem img:nth-child(3){
+    right: 10%;
+}
+
+
+.elem:hover h1{
+    transform: translateY(-100%);
+    
+
 }
