@@ -33,7 +33,7 @@ init();
 
 const cursor = document.querySelector(".cursor")
 const main = document.querySelector(".main")
-main.addEventListener('mousemove', function (e) {
+document.addEventListener('mousemove', function (e) {
 
     cursor.style.left = e.x + 20+ 'px'
     cursor.style.top = e.y + 20+ 'px'
@@ -121,4 +121,20 @@ box.forEach(function(elem){
         cursor.style.backgroundImage = 'none';
       })
 
+})
+
+const purple = document.querySelector('.purple')
+const h4 = document.querySelectorAll('#nav h4')
+h4.forEach(function(elem){
+    elem.addEventListener('mouseenter', function(){
+        purple.style.display  = "block";
+        purple.style.opacity = "1";
+        
+    })
+    elem.addEventListener('mouseleave', function(){
+        purple.style.display  = 'none'
+        purple.style.opacity = '0'
+
+        
+    })
 })
