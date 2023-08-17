@@ -10,57 +10,59 @@ html,
 body {
     min-height: 100%;
     width: 100%;
+    font-family: 'PP mori' !important;
 }
 
-.cursor{
+.cursor {
     height: 20px;
     width: 20px;
     position: fixed;
     border-radius: 50%;
     background-color: #EDBFFF;
     z-index: 8;
-    mix-blend-mode:difference;
-    transition:  all 0.1s;
+    mix-blend-mode: difference;
+    transition: backgorund-image ease 0.5s;
+    background-position: center;
+    background-size: cover;
 
 }
 
 
-.mouse_enter{
+.mouse_enter {
 
     /* mix-blend-mode: difference; */
-    
+
     background-color: red;
     height: 20px;
     width: 70px;
     z-index: 10;
-    position:relative;
+    position: relative;
     border-radius: 13%;
-    
+
 }
 
 
-.mouse_enter p{
+.mouse_enter p {
     font-family: PP mori;
     font-size: 0.7vw;
-    color:#fff;
+    color: #fff;
     position: fixed;
-    white-space: nowrap; 
-    padding-block: 6px; 
-    padding-left: 4px;   
+    white-space: nowrap;
+    padding-block: 6px;
+    padding-left: 4px;
     position: relative;
     z-index: 10;
 }
 
 .main {
     background-color: #0F0D0D;
+    cursor: none;
 }
 
 .page1 {
-    /* min-height: 100vh; */
     min-height: 100vh;
     width: 100%;
-    /* position: relative;
-    z-index: 9; */
+    padding-top: 12vw;
 }
 
 #nav {
@@ -70,6 +72,9 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
+    position: fixed;
+    mix-blend-mode: difference;
+    z-index: 12;
 }
 
 #nav img {
@@ -106,7 +111,6 @@ body {
     font-size: 7vw;
     font-family: 'PP mori';
     font-weight: 300;
-    margin-top: 12vw;
     margin-left: 6vw;
 }
 
@@ -117,35 +121,35 @@ body {
     margin-left: 26vw;
 }
 
-.page1 video{
+.page1 video {
     width: 60%;
     margin-top: 10vw;
     position: relative;
     left: 50%;
-    transform: translate(-50%,0); 
-   
+    transform: translate(-50%, 0);
+
 }
 
 
-.page2{
+.page2 {
     min-height: 80vh;
     width: 100%;
     padding: 100px 5vw;
-    border-bottom:2px solid #6c6c6c ;
+    border-bottom: 2px solid #6c6c6c;
 
 }
 
-.page2 h1{
+.page2 h1 {
     font-size: 7vw;
     font-family: PP mori;
-    color:#111;
+    color: #111;
     font-weight: 300;
     margin-left: 50px;
 
 
 }
 
-.page2_container{
+.page2_container {
     height: 60vh;
     width: 100%;
     display: flex;
@@ -153,37 +157,38 @@ body {
     justify-content: space-between;
     padding: 0 5vw;
     margin-top: 8vh;
-    
+
 }
 
-.page2_left{
-    
+.page2_left {
+
     width: 38%;
 }
-.page2_left h2{
+
+.page2_left h2 {
     font-size: 3.5vw;
     font-weight: 300;
-    color:#111;
+    color: #111;
     font-family: PP mori;
     line-height: 4vw;
 }
 
-.page2_right{
-    
+.page2_right {
+
     width: 34%;
 }
 
-.page2_right p{
+.page2_right p {
     font-size: 2vw;
     font-family: PP mori;
     color: #111;
 }
 
-.page2_right button{
+.page2_right button {
     width: 100%;
     border-radius: 50px;
     border: none;
-    padding:4px 0 ;
+    padding: 4px 0;
     background-color: #EDBFFF;
     color: #111;
     margin-top: 20px;
@@ -192,13 +197,13 @@ body {
 }
 
 
-.page3{
+.page3 {
     min-height: 100vh;
     width: 100%;
     margin-top: 15vh;
 }
 
-.page3 h1{
+.page3 h1 {
     font-size: 5.8vw;
     font-weight: 300;
     color: #111;
@@ -207,7 +212,7 @@ body {
     margin-bottom: 13vh;
 }
 
-.page3_part1{
+.page3_part1 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -215,30 +220,30 @@ body {
     margin-top: 40px;
 }
 
-.page3_part1 img{
+.page3_part1 img {
     width: 38vw;
     margin-top: 100px;
 
 }
 
-.page3_part1 video{
+.page3_part1 video {
     width: 42vw;
 }
 
-.view_all{
+.view_all {
     font-family: PP mori;
     color: white;
     font-weight: 300 !important;
-    font-size:4vw !important;
+    font-size: 4vw !important;
     margin-left: 3vw;
     margin-bottom: 30px;
-    
+
 }
 
 
-.circle-btn{
+.circle-btn {
     height: 7rem;
-    width:7rem;
+    width: 7rem;
     text-align: center;
     background-color: pink;
     border-radius: 100%;
@@ -253,13 +258,13 @@ body {
 
 
 
-.page3_sub_footer{
+.page3_sub_footer {
     display: flex;
 
-    
+
 }
 
-.page4{
+.page4 {
     min-height: 100vh;
     width: 100%;
     /* background-color: red; */
@@ -268,14 +273,15 @@ body {
     padding: 100px 100px;
 }
 
-.page5{
+.page5 {
     min-height: 100vh;
     width: 100%;
     position: relative;
     z-index: 9;
+    padding: 140px 100px;
 }
 
-.elem{
+.elem {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -284,21 +290,22 @@ body {
 }
 
 
-.text-div{
+.text-div {
     height: 80px;
     overflow: hidden;
 
 }
-.elem h1{
+
+.elem h1 {
     font-size: 5.1vw;
     font-family: PP mori;
-    transition: all ease-out 0.5s ;
+    transition: all ease-out 0.5s;
     font-weight: 500;
     text-transform: uppercase;
 
 }
 
-.elem img{
+.elem img {
     position: absolute;
     opacity: 0;
     transition: all ease-out 0.5s;
@@ -306,22 +313,52 @@ body {
     width: 27vw;
 }
 
-.elem img:nth-child(1){
+.elem img:nth-child(1) {
     left: 0%
 }
 
-.elem img:nth-child(3){
+.elem img:nth-child(3) {
     right: 0%;
 }
 
 
-.elem:hover h1{
+.elem:hover h1 {
     transform: translateY(-100%);
     color: pink;
 
 }
 
-.elem:hover img{
+.elem:hover img {
     opacity: 1;
     transform: translateY(0) rotate(0deg);
+}
+
+.footer{
+    height: 90vh;
+    width: 100%;
+    /* background-color:#008000; */
+}
+
+.page5 h2{
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'PP mori';
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 20px;
+    border-top: 1.5px solid #dadada;
+}
+
+.box:nth-last-child(1){
+    border-bottom: 2px solid #dadada;
+}
+
+.page5 h2{
+    font-family: 'PP mori';
 }
