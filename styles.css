@@ -87,6 +87,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
     justify-content: space-between;
     padding: 0 30px;
     position: fixed;
@@ -95,7 +96,7 @@ body {
 }
 
 #nav img {
-    height: 26px;
+    height:20px;
 
 }
 
@@ -104,6 +105,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    position: relative;
+    right: 2rem;
 }
 
 #nav-part3 {
@@ -157,7 +160,7 @@ body {
 }
 
 .page2 h1 {
-    font-size: 7vw;
+    font-size: 3vw;
     font-family: PP mori;
     color: #111;
     font-weight: 300;
