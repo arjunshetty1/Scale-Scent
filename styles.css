@@ -53,17 +53,19 @@ body {
     position: relative;
     z-index: 10;
 }
-.purple{
+
+.purple {
     height: 100vh;
     width: 100vw;
     top: 0;
     position: fixed;
     background-color: purple;
-    z-index:100;
+    z-index: 100;
     opacity: 100%;
     display: none;
 
 }
+
 .main {
     background-color: #0F0D0D;
     cursor: none;
@@ -74,6 +76,7 @@ body {
     width: 100%;
     padding-top: 22vw;
 }
+
 #nav {
     height: 55px;
     width: 100%;
@@ -342,20 +345,20 @@ body {
     transform: translateY(0) rotate(0deg);
 }
 
-.footer{
+.footer {
     height: 90vh;
     width: 100%;
     /* background-color:#008000; */
 }
 
-.page5 h2{
+.page5 h2 {
     font-size: 4vw;
     text-transform: uppercase;
     font-weight: 400;
     font-family: 'PP mori';
 }
 
-.box{
+.box {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -364,26 +367,26 @@ body {
     border-top: 1.5px solid #dadada;
 }
 
-.box:nth-last-child(1){
+.box:nth-last-child(1) {
     border-bottom: 2px solid #dadada;
 }
 
-.page5 h2{
+.page5 h2 {
     font-family: 'PP mori';
 }
 
 
-.main-footer{
+.main-footer {
     height: 100vh;
     width: 100%;
     background-color: rgb(206, 127, 206);
 }
 
-.main-footer .page3_sub_footer{
+.main-footer .page3_sub_footer {
     padding-top: 10vh !important;
 }
 
-.p-tag{
+.p-tag {
     color: white;
     font-family: 'PP mori';
     margin-left: 4vw;
@@ -392,18 +395,20 @@ body {
 }
 
 
-.contact-div{
+.contact-div {
     display: flex;
-    align-items:center;
+    align-items: center;
     gap: 350px;
     justify-content: center;
     margin-top: 14vh;
 }
 
-.contact-div p{
+.contact-div p {
     font-family: 'PP mori';
 
 
-}.contact-div p a{
+}
+
+.contact-div p a {
     font-family: 'PP mori';
 }

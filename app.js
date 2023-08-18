@@ -35,8 +35,8 @@ const cursor = document.querySelector(".cursor")
 const main = document.querySelector(".main")
 document.addEventListener('mousemove', function (e) {
 
-    cursor.style.left = e.x + 20+ 'px'
-    cursor.style.top = e.y + 20+ 'px'
+    cursor.style.left = e.x + 20 + 'px'
+    cursor.style.top = e.y + 20 + 'px'
 })
 
 
@@ -102,39 +102,39 @@ tl3.to(".main", {
 })
 
 
-const box = document.querySelectorAll('.box') 
-box.forEach(function(elem){
-      elem.addEventListener('mouseenter',function(){
-        const att  = elem.getAttribute('data-image')
+const box = document.querySelectorAll('.box')
+box.forEach(function (elem) {
+    elem.addEventListener('mouseenter', function () {
+        const att = elem.getAttribute('data-image')
         cursor.style.width = "370px"
         cursor.style.height = "370px"
         cursor.style.borderRadius = "0"
         cursor.style.backgroundImage = 'url(' + att + ')';
-        
-      })
 
-      elem.addEventListener('mouseleave',function(){
+    })
+
+    elem.addEventListener('mouseleave', function () {
         elem.style.backgroundColor = 'transparent'
         cursor.style.width = "20px"
         cursor.style.height = "20px"
         cursor.style.borderRadius = "50%"
         cursor.style.backgroundImage = 'none';
-      })
+    })
 
 })
 
 const purple = document.querySelector('.purple')
 const h4 = document.querySelectorAll('#nav h4')
-h4.forEach(function(elem){
-    elem.addEventListener('mouseenter', function(){
-        purple.style.display  = "block";
+h4.forEach(function (elem) {
+    elem.addEventListener('mouseenter', function () {
+        purple.style.display = "block";
         purple.style.opacity = "1";
-        
+
     })
-    elem.addEventListener('mouseleave', function(){
-        purple.style.display  = 'none'
+    elem.addEventListener('mouseleave', function () {
+        purple.style.display = 'none'
         purple.style.opacity = '0'
 
-        
+
     })
 })
