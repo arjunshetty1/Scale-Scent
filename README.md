@@ -2,7 +2,19 @@
 
 Welcome to the Scale Scent website project! This project showcases a creative digital agency's portfolio using HTML, CSS, and GSAP animations. The website is designed to provide an interactive and visually engaging experience for visitors.
 
-## Table of Contents
+
+
+
+![Screenshot (308)](https://github.com/arjunshetty1/Scale-Scent/assets/97979919/5a4e9d8d-d59d-4d9e-afd0-6d1f65061d91)
+
+![Screenshot (309)](https://github.com/arjunshetty1/Scale-Scent/assets/97979919/c40e2c7a-07e6-4723-8adc-31a13a9c26a4)
+
+[Screenshot (310)](https://github.com/arjunshetty1/Scale-Scent/assets/97979919/19311d77-b29d-4f0a-9006-d3793050ee1b)
+
+![Screenshot (307)](https://github.com/arjunshetty1/Scale-Scent/assets/97979919/35e04260-9aa5-4de3-b699-bdf725282bda)
+
+## Table of Contents!
+
 
 - [Introduction](#introduction)
 - [Features](#features)
