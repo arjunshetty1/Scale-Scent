@@ -406,17 +406,20 @@ body {
 .contact-div {
     display: flex;
     align-items: center;
-    gap: 350px;
+    gap: 250px;
     justify-content: center;
     margin-top: 14vh;
+    white-space: nowrap;
 }
 
 .contact-div p {
     font-family: 'PP mori';
+    white-space: nowrap;
 
 
 }
 
 .contact-div p a {
     font-family: 'PP mori';
+    white-space: nowrap;
 }
